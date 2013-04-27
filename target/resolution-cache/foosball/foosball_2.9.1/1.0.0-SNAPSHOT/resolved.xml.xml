@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="foosball"
+		module="foosball_2.9.1"
+		revision="1.0.0-SNAPSHOT"
+		status="integration"
+		publication="20130419042020"
+	>
+		<description>
+		foosball
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="foosball_2.9.1" type="pom" ext="pom" conf="pom"/>
+		<artifact name="foosball_2.9.1" type="jar" ext="jar" conf="compile"/>
+		<artifact name="foosball_2.9.1" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="foosball_2.9.1" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.9.1" conf="compile->default(compile)"/>
+		<dependency org="cc.spray" name="spray-base" rev="1.0-M2.1" conf="compile->default(compile)">
+			<artifact name="spray-base" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="spray-base" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="cc.spray" name="spray-server" rev="1.0-M2.1" conf="compile->default(compile)">
+			<artifact name="spray-server" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="spray-server" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="cc.spray" name="spray-can" rev="1.0-M2.1" conf="compile->default(compile)">
+			<artifact name="spray-can" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="spray-can" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="cc.spray" name="spray-io" rev="1.0-M2.1" conf="compile->default(compile)">
+			<artifact name="spray-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="spray-io" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-actor" rev="2.0.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-slf4j" rev="2.0.2" conf="compile->default(compile)"/>
+		<dependency org="net.liftweb" name="lift-json-ext_2.9.0-1" rev="2.4-M2" conf="compile->default(compile)"/>
+		<dependency org="net.liftweb" name="lift-json_2.9.0-1" rev="2.4-M2" conf="compile->default(compile)"/>
+		<dependency org="com.mongodb.casbah" name="casbah_2.9.0-1" rev="2.1.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.novus" name="salat-core_2.9.1" rev="0.0.8" conf="compile->default(compile)"/>
+		<dependency org="net.databinder" name="dispatch-http_2.9.0-1" rev="0.8.4" conf="compile->default(compile)"/>
+		<dependency org="commons-validator" name="commons-validator" rev="1.3.1" conf="compile->default(compile)"/>
+		<exclude org="org.slf4j" module="slf4j-simple" artifact="*" type="*" ext="*" matcher="exact"/>
+		<exclude org="commons-logging" module="commons-logging" artifact="*" type="*" ext="*" matcher="exact"/>
+		<exclude org="com.mongodb.casbah" module="casbah-core_2.9.1" artifact="*" type="*" ext="*" matcher="exact"/>
+		<exclude org="com.mongodb.casbah" module="casbah-commons_2.9.1" artifact="*" type="*" ext="*" matcher="exact"/>
+		<exclude org="net.liftweb" module="lift-json_2.9.1" artifact="*" type="*" ext="*" matcher="exact"/>
+		<exclude org="commons-beanutils" module="commons-beanutils" artifact="*" type="*" ext="*" matcher="exact"/>
+		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
+		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
+		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.9.1"/>
+		<override org="org.scala-lang" module="scala-compiler" matcher="exact" rev="2.9.1"/>
+	</dependencies>
+</ivy-module>

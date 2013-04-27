@@ -1,0 +1,10 @@
+re-start
+gen-idea
+compile
+re-start
+-start
+re-start
+re-stop
+re-start
+reload
+re-start

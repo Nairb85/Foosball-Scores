@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="zub"
+		module="campaign$sources_javadoc_2.9.1"
+		revision="2.0.5-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20130419001209"/>
+	<dependencies>
+		<module organisation="commons-validator" name="commons-validator">
+			<revision name="1.3.1" status="release" pubdate="20061201182731" resolver="public" artresolver="public" homepage="http://jakarta.apache.org/commons/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3568" time="0" location="/Users/aeryn/.ivy2/cache/commons-validator/commons-validator/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-validator" type="jar" ext="jar" status="no" details="" size="138956" time="0" location="/Users/aeryn/.ivy2/cache/commons-validator/commons-validator/jars/commons-validator-1.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar"/>
+					</artifact>
+					<artifact name="commons-validator" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="114083" time="1345" location="/Users/aeryn/.ivy2/cache/commons-validator/commons-validator/srcs/commons-validator-1.3.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-validator" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="22"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-digester" name="commons-digester">
+			<revision name="1.6" status="release" pubdate="20051108140552" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="37">
+				<metadata-artifact status="no" details="" size="2905" time="0" location="/Users/aeryn/.ivy2/cache/commons-digester/commons-digester/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-digester" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="439768" time="3374" location="/Users/aeryn/.ivy2/cache/commons-digester/commons-digester/docs/commons-digester-1.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-digester" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="190745" time="801" location="/Users/aeryn/.ivy2/cache/commons-digester/commons-digester/srcs/commons-digester-1.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6-sources.jar"/>
+					</artifact>
+					<artifact name="commons-digester" type="jar" ext="jar" status="no" details="" size="168446" time="0" location="/Users/aeryn/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.0.b2" status="release" pubdate="20070208163046" resolver="public" artresolver="public" homepage="http://xml.apache.org/commons/#external" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2923" time="0" location="/Users/aeryn/.ivy2/cache/xml-apis/xml-apis/ivy-1.0.b2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0.b2" rev-constraint-default="1.0.b2" rev-constraint-dynamic="1.0.b2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xml-apis" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="407051" time="1646" location="/Users/aeryn/.ivy2/cache/xml-apis/xml-apis/srcs/xml-apis-1.0.b2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar"/>
+					</artifact>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="109318" time="0" location="/Users/aeryn/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+					</artifact>
+					<artifact name="xml-apis" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="23"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="2.1" status="release" pubdate="20051108143131" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="38">
+				<metadata-artifact status="no" details="" size="2455" time="0" location="/Users/aeryn/.ivy2/cache/commons-collections/commons-collections/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="165119" time="0" location="/Users/aeryn/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.jar"/>
+					</artifact>
+					<artifact name="commons-collections" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="274118" time="1162" location="/Users/aeryn/.ivy2/cache/commons-collections/commons-collections/docs/commons-collections-2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="246235" time="1147" location="/Users/aeryn/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="dispatch-http_2.9.0-1">
+			<revision name="0.8.4" status="release" pubdate="20110724205324" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+				<metadata-artifact status="no" details="" size="2963" time="0" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-http_2.9.0-1/ivy-0.8.4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.0-1/0.8.4/dispatch-http_2.9.0-1-0.8.4.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="0.8.4" rev-constraint-default="0.8.4" rev-constraint-dynamic="0.8.4" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="dispatch-http_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="277856" time="5626" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-http_2.9.0-1/docs/dispatch-http_2.9.0-1-0.8.4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.0-1/0.8.4/dispatch-http_2.9.0-1-0.8.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="dispatch-http_2.9.0-1" type="jar" ext="jar" status="no" details="" size="27278" time="0" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-http_2.9.0-1/jars/dispatch-http_2.9.0-1-0.8.4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.0-1/0.8.4/dispatch-http_2.9.0-1-0.8.4.jar"/>
+					</artifact>
+					<artifact name="dispatch-http_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3968" time="1325" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-http_2.9.0-1/srcs/dispatch-http_2.9.0-1-0.8.4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-http_2.9.0-1/0.8.4/dispatch-http_2.9.0-1-0.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="dispatch-futures_2.9.0-1">
+			<revision name="0.8.4" status="release" pubdate="20110724205319" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="35">
+				<metadata-artifact status="no" details="" size="2670" time="0" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-futures_2.9.0-1/ivy-0.8.4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.0-1/0.8.4/dispatch-futures_2.9.0-1-0.8.4.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="0.8.4" rev-constraint-default="0.8.4" rev-constraint-dynamic="0.8.4" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="dispatch-futures_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="261410" time="1684" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-futures_2.9.0-1/docs/dispatch-futures_2.9.0-1-0.8.4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.0-1/0.8.4/dispatch-futures_2.9.0-1-0.8.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="dispatch-futures_2.9.0-1" type="jar" ext="jar" status="no" details="" size="13184" time="0" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-futures_2.9.0-1/jars/dispatch-futures_2.9.0-1-0.8.4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.0-1/0.8.4/dispatch-futures_2.9.0-1-0.8.4.jar"/>
+					</artifact>
+					<artifact name="dispatch-futures_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="917" time="554" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-futures_2.9.0-1/srcs/dispatch-futures_2.9.0-1-0.8.4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-futures_2.9.0-1/0.8.4/dispatch-futures_2.9.0-1-0.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="dispatch-core_2.9.0-1">
+			<revision name="0.8.4" status="release" pubdate="20110724205310" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
+				<metadata-artifact status="no" details="" size="2664" time="0" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-core_2.9.0-1/ivy-0.8.4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.0-1/0.8.4/dispatch-core_2.9.0-1-0.8.4.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="0.8.4" rev-constraint-default="0.8.4" rev-constraint-dynamic="0.8.4" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="dispatch-core_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="329325" time="6768" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-core_2.9.0-1/docs/dispatch-core_2.9.0-1-0.8.4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.0-1/0.8.4/dispatch-core_2.9.0-1-0.8.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="dispatch-core_2.9.0-1" type="jar" ext="jar" status="no" details="" size="114131" time="0" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-core_2.9.0-1/jars/dispatch-core_2.9.0-1-0.8.4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.0-1/0.8.4/dispatch-core_2.9.0-1-0.8.4.jar"/>
+					</artifact>
+					<artifact name="dispatch-core_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9481" time="775" location="/Users/aeryn/.ivy2/cache/net.databinder/dispatch-core_2.9.0-1/srcs/dispatch-core_2.9.0-1-0.8.4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/databinder/dispatch-core_2.9.0-1/0.8.4/dispatch-core_2.9.0-1-0.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.1" status="release" pubdate="20110117121802" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="33">
+				<metadata-artifact status="no" details="" size="5617" time="0" location="/Users/aeryn/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpclient" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="190"/>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="349959" time="0" location="/Users/aeryn/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar"/>
+					</artifact>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="449691" time="3998" location="/Users/aeryn/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.1" status="release" pubdate="20101113111134" resolver="public" artresolver="public" homepage="http://hc.apache.org/httpcomponents-core-ga/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="34">
+				<metadata-artifact status="no" details="" size="4803" time="0" location="/Users/aeryn/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpcore" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="162"/>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="181041" time="0" location="/Users/aeryn/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar"/>
+					</artifact>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="274396" time="862" location="/Users/aeryn/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.novus" name="salat-core_2.9.1">
+			<revision name="0.0.8" status="release" pubdate="20120624082201" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="https://github.com/novus/salat" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="27">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3538" time="0" location="/Users/aeryn/.ivy2/cache/com.novus/salat-core_2.9.1/ivy-0.0.8.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/novus/salat-core_2.9.1/0.0.8/salat-core_2.9.1-0.0.8.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="0.0.8" rev-constraint-default="0.0.8" rev-constraint-dynamic="0.0.8" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="salat-core_2.9.1" type="jar" ext="jar" status="no" details="" size="558915" time="0" location="/Users/aeryn/.ivy2/cache/com.novus/salat-core_2.9.1/jars/salat-core_2.9.1-0.0.8.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/novus/salat-core_2.9.1/0.0.8/salat-core_2.9.1-0.0.8.jar"/>
+					</artifact>
+					<artifact name="salat-core_2.9.1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="56991" time="1370" location="/Users/aeryn/.ivy2/cache/com.novus/salat-core_2.9.1/srcs/salat-core_2.9.1-0.0.8-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/novus/salat-core_2.9.1/0.0.8/salat-core_2.9.1-0.0.8-sources.jar"/>
+					</artifact>
+					<artifact name="salat-core_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="539862" time="6105" location="/Users/aeryn/.ivy2/cache/com.novus/salat-core_2.9.1/docs/salat-core_2.9.1-0.0.8-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/novus/salat-core_2.9.1/0.0.8/salat-core_2.9.1-0.0.8-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="mongo-java-driver">
+			<revision name="2.7.3" status="release" pubdate="20120130111431" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2384" time="0" location="/Users/aeryn/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.7.3.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.7.3" rev-constraint-default="2.7.3" rev-constraint-dynamic="2.7.3" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mongo-java-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="777499" time="20571" location="/Users/aeryn/.ivy2/cache/org.mongodb/mongo-java-driver/docs/mongo-java-driver-2.7.3-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="mongo-java-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="214391" time="3476" location="/Users/aeryn/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-2.7.3-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3-sources.jar"/>
+					</artifact>
+					<artifact name="mongo-java-driver" type="jar" ext="jar" status="no" details="" size="291946" time="0" location="/Users/aeryn/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.7.3.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.novus" name="salat-util_2.9.1">
+			<revision name="0.0.8" status="release" pubdate="20120624082201" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="https://github.com/novus/salat" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3124" time="0" location="/Users/aeryn/.ivy2/cache/com.novus/salat-util_2.9.1/ivy-0.0.8.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/novus/salat-util_2.9.1/0.0.8/salat-util_2.9.1-0.0.8.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="0.0.8" rev-constraint-default="0.0.8" rev-constraint-dynamic="0.0.8" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="salat-util_2.9.1" type="jar" ext="jar" status="no" details="" size="100020" time="0" location="/Users/aeryn/.ivy2/cache/com.novus/salat-util_2.9.1/jars/salat-util_2.9.1-0.0.8.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/novus/salat-util_2.9.1/0.0.8/salat-util_2.9.1-0.0.8.jar"/>
+					</artifact>
+					<artifact name="salat-util_2.9.1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16101" time="2496" location="/Users/aeryn/.ivy2/cache/com.novus/salat-util_2.9.1/srcs/salat-util_2.9.1-0.0.8-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/novus/salat-util_2.9.1/0.0.8/salat-util_2.9.1-0.0.8-sources.jar"/>
+					</artifact>
+					<artifact name="salat-util_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="319634" time="2179" location="/Users/aeryn/.ivy2/cache/com.novus/salat-util_2.9.1/docs/salat-util_2.9.1-0.0.8-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/novus/salat-util_2.9.1/0.0.8/salat-util_2.9.1-0.0.8-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.9.1" status="release" pubdate="20110831014129" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="29">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2476" time="0" location="/Users/aeryn/.ivy2/cache/org.scala-lang/scalap/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.9.1/scalap-2.9.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalap" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="141"/>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="41667" time="1037" location="/Users/aeryn/.ivy2/cache/org.scala-lang/scalap/srcs/scalap-2.9.1-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.9.1/scalap-2.9.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalap" type="jar" ext="jar" status="no" details="" size="841814" time="0" location="/Users/aeryn/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.1.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.9.1/scalap-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mongodb.casbah" name="casbah_2.9.0-1">
+			<revision name="2.1.5.0" status="release" pubdate="20110526095925" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah_2.9.0-1/ivy-2.1.5.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah_2.9.0-1/2.1.5.0/casbah_2.9.0-1-2.1.5.0.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.1.5.0" rev-constraint-default="2.1.5.0" rev-constraint-dynamic="2.1.5.0" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="casbah_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="failed" details="missing artifact" size="0" time="109"/>
+					<artifact name="casbah_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="105"/>
+					<artifact name="casbah_2.9.0-1" type="jar" ext="jar" status="failed" details="missing artifact" size="0" time="121"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mongodb.casbah" name="casbah-gridfs_2.9.0-1">
+			<revision name="2.1.5.0" status="release" pubdate="20110526095922" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="26">
+				<metadata-artifact status="no" details="" size="2550" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-gridfs_2.9.0-1/ivy-2.1.5.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-gridfs_2.9.0-1/2.1.5.0/casbah-gridfs_2.9.0-1-2.1.5.0.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.1.5.0" rev-constraint-default="2.1.5.0" rev-constraint-dynamic="2.1.5.0" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="casbah-gridfs_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4229" time="935" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-gridfs_2.9.0-1/srcs/casbah-gridfs_2.9.0-1-2.1.5.0-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-gridfs_2.9.0-1/2.1.5.0/casbah-gridfs_2.9.0-1-2.1.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="casbah-gridfs_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="318596" time="4185" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-gridfs_2.9.0-1/docs/casbah-gridfs_2.9.0-1-2.1.5.0-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-gridfs_2.9.0-1/2.1.5.0/casbah-gridfs_2.9.0-1-2.1.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="casbah-gridfs_2.9.0-1" type="jar" ext="jar" status="no" details="" size="85220" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-gridfs_2.9.0-1/jars/casbah-gridfs_2.9.0-1-2.1.5.0.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-gridfs_2.9.0-1/2.1.5.0/casbah-gridfs_2.9.0-1-2.1.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mongodb.casbah" name="casbah-core_2.9.0-1">
+			<revision name="2.1.5.0" status="release" pubdate="20110526095916" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+				<metadata-artifact status="no" details="" size="2702" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-core_2.9.0-1/ivy-2.1.5.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-core_2.9.0-1/2.1.5.0/casbah-core_2.9.0-1-2.1.5.0.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.1.5.0" rev-constraint-default="2.1.5.0" rev-constraint-dynamic="2.1.5.0" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="casbah-core_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="29749" time="1161" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-core_2.9.0-1/srcs/casbah-core_2.9.0-1-2.1.5.0-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-core_2.9.0-1/2.1.5.0/casbah-core_2.9.0-1-2.1.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="casbah-core_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="496399" time="3869" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-core_2.9.0-1/docs/casbah-core_2.9.0-1-2.1.5.0-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-core_2.9.0-1/2.1.5.0/casbah-core_2.9.0-1-2.1.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="casbah-core_2.9.0-1" type="jar" ext="jar" status="no" details="" size="212716" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-core_2.9.0-1/jars/casbah-core_2.9.0-1-2.1.5.0.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-core_2.9.0-1/2.1.5.0/casbah-core_2.9.0-1-2.1.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mongodb.casbah" name="casbah-query_2.9.0-1">
+			<revision name="2.1.5.0" status="release" pubdate="20110526095909" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+				<metadata-artifact status="no" details="" size="2551" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-query_2.9.0-1/ivy-2.1.5.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-query_2.9.0-1/2.1.5.0/casbah-query_2.9.0-1-2.1.5.0.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.1.5.0" rev-constraint-default="2.1.5.0" rev-constraint-dynamic="2.1.5.0" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="casbah-query_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="597596" time="4092" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-query_2.9.0-1/docs/casbah-query_2.9.0-1-2.1.5.0-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-query_2.9.0-1/2.1.5.0/casbah-query_2.9.0-1-2.1.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="casbah-query_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11105" time="716" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-query_2.9.0-1/srcs/casbah-query_2.9.0-1-2.1.5.0-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-query_2.9.0-1/2.1.5.0/casbah-query_2.9.0-1-2.1.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="casbah-query_2.9.0-1" type="jar" ext="jar" status="no" details="" size="245635" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-query_2.9.0-1/jars/casbah-query_2.9.0-1-2.1.5.0.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-query_2.9.0-1/2.1.5.0/casbah-query_2.9.0-1-2.1.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mongodb.casbah" name="casbah-commons_2.9.0-1">
+			<revision name="2.1.5.0" status="release" pubdate="20110526095901" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<metadata-artifact status="no" details="" size="2957" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-commons_2.9.0-1/ivy-2.1.5.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-commons_2.9.0-1/2.1.5.0/casbah-commons_2.9.0-1-2.1.5.0.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.1.5.0" rev-constraint-default="2.1.5.0" rev-constraint-dynamic="2.1.5.0" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="casbah-commons_2.9.0-1" type="jar" ext="jar" status="no" details="" size="182704" time="0" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-commons_2.9.0-1/jars/casbah-commons_2.9.0-1-2.1.5.0.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-commons_2.9.0-1/2.1.5.0/casbah-commons_2.9.0-1-2.1.5.0.jar"/>
+					</artifact>
+					<artifact name="casbah-commons_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="384333" time="2756" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-commons_2.9.0-1/docs/casbah-commons_2.9.0-1-2.1.5.0-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-commons_2.9.0-1/2.1.5.0/casbah-commons_2.9.0-1-2.1.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="casbah-commons_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10536" time="1127" location="/Users/aeryn/.ivy2/cache/com.mongodb.casbah/casbah-commons_2.9.0-1/srcs/casbah-commons_2.9.0-1-2.1.5.0-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/mongodb/casbah/casbah-commons_2.9.0-1/2.1.5.0/casbah-commons_2.9.0-1-2.1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-tools.time" name="time_2.8.0">
+			<revision name="0.2" status="release" pubdate="20101005132651" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+				<metadata-artifact status="no" details="" size="2501" time="0" location="/Users/aeryn/.ivy2/cache/org.scala-tools.time/time_2.8.0/ivy-0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-tools/time/time_2.8.0/0.2/time_2.8.0-0.2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="time_2.8.0" type="jar" ext="jar" status="no" details="" size="97728" time="0" location="/Users/aeryn/.ivy2/cache/org.scala-tools.time/time_2.8.0/jars/time_2.8.0-0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-tools/time/time_2.8.0/0.2/time_2.8.0-0.2.jar"/>
+					</artifact>
+					<artifact name="time_2.8.0" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="245"/>
+					<artifact name="time_2.8.0" type="src" ext="jar" extra-classifier="sources" status="failed" details="missing artifact" size="0" time="145"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaj" name="scalaj-collection_2.8.0">
+			<revision name="1.0" status="release" pubdate="20100727013310" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+				<metadata-artifact status="no" details="" size="2388" time="0" location="/Users/aeryn/.ivy2/cache/org.scalaj/scalaj-collection_2.8.0/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scalaj/scalaj-collection_2.8.0/1.0/scalaj-collection_2.8.0-1.0.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaj-collection_2.8.0" type="jar" ext="jar" status="no" details="" size="150113" time="0" location="/Users/aeryn/.ivy2/cache/org.scalaj/scalaj-collection_2.8.0/jars/scalaj-collection_2.8.0-1.0.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scalaj/scalaj-collection_2.8.0/1.0/scalaj-collection_2.8.0-1.0.jar"/>
+					</artifact>
+					<artifact name="scalaj-collection_2.8.0" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="109"/>
+					<artifact name="scalaj-collection_2.8.0" type="src" ext="jar" extra-classifier="sources" status="failed" details="missing artifact" size="0" time="120"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.9.1" status="release" pubdate="20110831014108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2604" time="0" location="/Users/aeryn/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1710518" time="11088" location="/Users/aeryn/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.9.1-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-compiler" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json-ext_2.9.0-1">
+			<revision name="2.4-M2" status="release" pubdate="20110612055617" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3323" time="0" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-json-ext_2.9.0-1/ivy-2.4-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json-ext_2.9.0-1/2.4-M2/lift-json-ext_2.9.0-1-2.4-M2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.4-M2" rev-constraint-default="2.4-M2" rev-constraint-dynamic="2.4-M2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lift-json-ext_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4932" time="1428" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-json-ext_2.9.0-1/srcs/lift-json-ext_2.9.0-1-2.4-M2-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json-ext_2.9.0-1/2.4-M2/lift-json-ext_2.9.0-1-2.4-M2-sources.jar"/>
+					</artifact>
+					<artifact name="lift-json-ext_2.9.0-1" type="jar" ext="jar" status="no" details="" size="90690" time="0" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-json-ext_2.9.0-1/jars/lift-json-ext_2.9.0-1-2.4-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json-ext_2.9.0-1/2.4-M2/lift-json-ext_2.9.0-1-2.4-M2.jar"/>
+					</artifact>
+					<artifact name="lift-json-ext_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="111"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json_2.9.0-1">
+			<revision name="2.4-M2" status="release" pubdate="20110612054531" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3042" time="0" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-json_2.9.0-1/ivy-2.4-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.0-1/2.4-M2/lift-json_2.9.0-1-2.4-M2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.4-M2" rev-constraint-default="2.4-M2" rev-constraint-dynamic="2.4-M2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lift-json_2.9.0-1" type="jar" ext="jar" status="no" details="" size="437976" time="0" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-json_2.9.0-1/jars/lift-json_2.9.0-1-2.4-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.0-1/2.4-M2/lift-json_2.9.0-1-2.4-M2.jar"/>
+					</artifact>
+					<artifact name="lift-json_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="32131" time="1184" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-json_2.9.0-1/srcs/lift-json_2.9.0-1-2.4-M2-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.0-1/2.4-M2/lift-json_2.9.0-1-2.4-M2-sources.jar"/>
+					</artifact>
+					<artifact name="lift-json_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="115"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.3" status="release" pubdate="20101019061431" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="3340" time="0" location="/Users/aeryn/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="paranamer" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="69254" time="521" location="/Users/aeryn/.ivy2/cache/com.thoughtworks.paranamer/paranamer/docs/paranamer-2.3-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="26753" time="274" location="/Users/aeryn/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.3-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3-sources.jar"/>
+					</artifact>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="29555" time="0" location="/Users/aeryn/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-common_2.9.0-1">
+			<revision name="2.4-M2" status="release" pubdate="20110612054328" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3171" time="0" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-common_2.9.0-1/ivy-2.4-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.0-1/2.4-M2/lift-common_2.9.0-1-2.4-M2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.4-M2" rev-constraint-default="2.4-M2" rev-constraint-dynamic="2.4-M2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lift-common_2.9.0-1" type="jar" ext="jar" status="no" details="" size="180368" time="0" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-common_2.9.0-1/jars/lift-common_2.9.0-1-2.4-M2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.0-1/2.4-M2/lift-common_2.9.0-1-2.4-M2.jar"/>
+					</artifact>
+					<artifact name="lift-common_2.9.0-1" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25099" time="1299" location="/Users/aeryn/.ivy2/cache/net.liftweb/lift-common_2.9.0-1/srcs/lift-common_2.9.0-1-2.4-M2-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.0-1/2.4-M2/lift-common_2.9.0-1-2.4-M2-sources.jar"/>
+					</artifact>
+					<artifact name="lift-common_2.9.0-1" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="209"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="1.6.2" status="release" pubdate="20100913160700" resolver="public" artresolver="public" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="/Users/aeryn/.ivy2/cache/joda-time/joda-time/ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2353759" time="8705" location="/Users/aeryn/.ivy2/cache/joda-time/joda-time/docs/joda-time-1.6.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="543044" time="0" location="/Users/aeryn/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="665835" time="2190" location="/Users/aeryn/.ivy2/cache/joda-time/joda-time/srcs/joda-time-1.6.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.4" status="release" pubdate="20090809142217" resolver="public" artresolver="public" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+				<metadata-artifact status="no" details="" size="4984" time="0" location="/Users/aeryn/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="81359" time="659" location="/Users/aeryn/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="362252" time="1769" location="/Users/aeryn/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="58160" time="0" location="/Users/aeryn/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j">
+			<revision name="2.0.2" status="release" pubdate="20121011003708" resolver="TypeSafe Repository" artresolver="TypeSafe Repository" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3006" time="0" location="/Users/aeryn/.ivy2/cache/com.typesafe.akka/akka-slf4j/ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-slf4j/2.0.2/akka-slf4j-2.0.2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-slf4j" type="jar" ext="jar" status="no" details="" size="14415" time="0" location="/Users/aeryn/.ivy2/cache/com.typesafe.akka/akka-slf4j/jars/akka-slf4j-2.0.2.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-slf4j/2.0.2/akka-slf4j-2.0.2.jar"/>
+					</artifact>
+					<artifact name="akka-slf4j" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1635" time="544" location="/Users/aeryn/.ivy2/cache/com.typesafe.akka/akka-slf4j/srcs/akka-slf4j-2.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-slf4j/2.0.2/akka-slf4j-2.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="akka-slf4j" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="253449" time="2238" location="/Users/aeryn/.ivy2/cache/com.typesafe.akka/akka-slf4j/docs/akka-slf4j-2.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-slf4j/2.0.2/akka-slf4j-2.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.4" status="release" pubdate="20130205073717" resolver="TypeSafe Repository" artresolver="TypeSafe Repository" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<metadata-artifact status="no" details="" size="4338" time="0" location="/Users/aeryn/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="failed" details="missing artifact" size="0" time="315"/>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25962" time="0" location="/Users/aeryn/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.4.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="missing artifact" size="0" time="221"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor">
+			<revision name="2.0.2" status="release" pubdate="20121011003708" resolver="TypeSafe Repository" artresolver="TypeSafe Repository" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2496" time="0" location="/Users/aeryn/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.2/akka-actor-2.0.2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-actor" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1835890" time="356918" location="/Users/aeryn/.ivy2/cache/com.typesafe.akka/akka-actor/docs/akka-actor-2.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.2/akka-actor-2.0.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="akka-actor" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="367025" time="2657" location="/Users/aeryn/.ivy2/cache/com.typesafe.akka/akka-actor/srcs/akka-actor-2.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.2/akka-actor-2.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor" type="jar" ext="jar" status="no" details="" size="1853029" time="0" location="/Users/aeryn/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0.2.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.2/akka-actor-2.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cc.spray" name="spray-server">
+			<revision name="1.0-M2.1" status="release" pubdate="20120628023627" resolver="Spray Repo" artresolver="Spray Repo" homepage="http://spray.cc" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3896" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-server/ivy-1.0-M2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.cc/cc/spray/spray-server/1.0-M2.1/spray-server-1.0-M2.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0-M2.1" rev-constraint-default="1.0-M2.1" rev-constraint-dynamic="1.0-M2.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-server" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="621385" time="9749" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-server/docs/spray-server-1.0-M2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-server/1.0-M2.1/spray-server-1.0-M2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-server" type="jar" ext="jar" status="no" details="" size="839311" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-server/jars/spray-server-1.0-M2.1.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-server/1.0-M2.1/spray-server-1.0-M2.1.jar"/>
+					</artifact>
+					<artifact name="spray-server" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71893" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-server/srcs/spray-server-1.0-M2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-server/1.0-M2.1/spray-server-1.0-M2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
+			<revision name="1.2" status="release" pubdate="20110520180632" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="Apache" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4054" time="0" location="/Users/aeryn/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="concurrentlinkedhashmap-lru" type="jar" ext="jar" status="no" details="" size="53011" time="0" location="/Users/aeryn/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2.jar"/>
+					</artifact>
+					<artifact name="concurrentlinkedhashmap-lru" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="24800" time="851" location="/Users/aeryn/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/srcs/concurrentlinkedhashmap-lru-1.2-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2-sources.jar"/>
+					</artifact>
+					<artifact name="concurrentlinkedhashmap-lru" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="53601" time="1777" location="/Users/aeryn/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/docs/concurrentlinkedhashmap-lru-1.2-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cc.spray" name="spray-base">
+			<revision name="1.0-M2.1" status="release" pubdate="20120628023630" resolver="Spray Repo" artresolver="Spray Repo" homepage="http://spray.cc" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3798" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-base/ivy-1.0-M2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.cc/cc/spray/spray-base/1.0-M2.1/spray-base-1.0-M2.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0-M2.1" rev-constraint-default="1.0-M2.1" rev-constraint-dynamic="1.0-M2.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-base" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="795026" time="3597" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-base/docs/spray-base-1.0-M2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-base/1.0-M2.1/spray-base-1.0-M2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-base" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="80672" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-base/srcs/spray-base-1.0-M2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-base/1.0-M2.1/spray-base-1.0-M2.1-sources.jar"/>
+					</artifact>
+					<artifact name="spray-base" type="jar" ext="jar" status="no" details="" size="1008594" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-base/jars/spray-base-1.0-M2.1.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-base/1.0-M2.1/spray-base-1.0-M2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala">
+			<revision name="1.0.2" status="release" pubdate="20110930072041" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="http://parboiled.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2621" time="0" location="/Users/aeryn/.ivy2/cache/org.parboiled/parboiled-scala/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala/1.0.2/parboiled-scala-1.0.2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="parboiled-scala" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="429559" time="1972" location="/Users/aeryn/.ivy2/cache/org.parboiled/parboiled-scala/docs/parboiled-scala-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala/1.0.2/parboiled-scala-1.0.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="parboiled-scala" type="jar" ext="jar" status="no" details="" size="236730" time="0" location="/Users/aeryn/.ivy2/cache/org.parboiled/parboiled-scala/jars/parboiled-scala-1.0.2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala/1.0.2/parboiled-scala-1.0.2.jar"/>
+					</artifact>
+					<artifact name="parboiled-scala" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28589" time="631" location="/Users/aeryn/.ivy2/cache/org.parboiled/parboiled-scala/srcs/parboiled-scala-1.0.2-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-scala/1.0.2/parboiled-scala-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.0.2" status="release" pubdate="20110930072025" resolver="Sonatype OSS" artresolver="Sonatype OSS" homepage="http://parboiled.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2306" time="0" location="/Users/aeryn/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.0.2/parboiled-core-1.0.2.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="165344" time="1741" location="/Users/aeryn/.ivy2/cache/org.parboiled/parboiled-core/srcs/parboiled-core-1.0.2-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.0.2/parboiled-core-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="455145" time="2883" location="/Users/aeryn/.ivy2/cache/org.parboiled/parboiled-core/docs/parboiled-core-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.0.2/parboiled-core-1.0.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="jar" ext="jar" status="no" details="" size="211833" time="0" location="/Users/aeryn/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.0.2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/parboiled/parboiled-core/1.0.2/parboiled-core-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jvnet" name="mimepull">
+			<revision name="1.6" status="release" pubdate="20110803074207" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="             Dual license consisting of the CDDL v1.1 and GPL v2         " url="https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="2792" time="0" location="/Users/aeryn/.ivy2/cache/org.jvnet/mimepull/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/jvnet/mimepull/1.6/mimepull-1.6.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mimepull" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37771" time="382" location="/Users/aeryn/.ivy2/cache/org.jvnet/mimepull/srcs/mimepull-1.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jvnet/mimepull/1.6/mimepull-1.6-sources.jar"/>
+					</artifact>
+					<artifact name="mimepull" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="42139" time="260" location="/Users/aeryn/.ivy2/cache/org.jvnet/mimepull/docs/mimepull-1.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jvnet/mimepull/1.6/mimepull-1.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="mimepull" type="jar" ext="jar" status="no" details="" size="39112" time="0" location="/Users/aeryn/.ivy2/cache/org.jvnet/mimepull/jars/mimepull-1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jvnet/mimepull/1.6/mimepull-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cc.spray" name="spray-can">
+			<revision name="1.0-M2.1" status="release" pubdate="20120628023625" resolver="Spray Repo" artresolver="Spray Repo" homepage="http://spray.cc" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3085" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-can/ivy-1.0-M2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.cc/cc/spray/spray-can/1.0-M2.1/spray-can-1.0-M2.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0-M2.1" rev-constraint-default="1.0-M2.1" rev-constraint-dynamic="1.0-M2.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-can" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="520214" time="69844" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-can/docs/spray-can-1.0-M2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-can/1.0-M2.1/spray-can-1.0-M2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-can" type="jar" ext="jar" status="no" details="" size="399703" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-can/jars/spray-can-1.0-M2.1.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-can/1.0-M2.1/spray-can-1.0-M2.1.jar"/>
+					</artifact>
+					<artifact name="spray-can" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="58536" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-can/srcs/spray-can-1.0-M2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-can/1.0-M2.1/spray-can-1.0-M2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cc.spray" name="spray-io">
+			<revision name="1.0-M2.1" status="release" pubdate="20120628023624" resolver="Spray Repo" artresolver="Spray Repo" homepage="http://spray.cc" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3085" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-io/ivy-1.0-M2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.cc/cc/spray/spray-io/1.0-M2.1/spray-io-1.0-M2.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0-M2.1" rev-constraint-default="1.0-M2.1" rev-constraint-dynamic="1.0-M2.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-io" type="jar" ext="jar" status="no" details="" size="307262" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-io/jars/spray-io-1.0-M2.1.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-io/1.0-M2.1/spray-io-1.0-M2.1.jar"/>
+					</artifact>
+					<artifact name="spray-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28139" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-io/srcs/spray-io-1.0-M2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-io/1.0-M2.1/spray-io-1.0-M2.1-sources.jar"/>
+					</artifact>
+					<artifact name="spray-io" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="504792" time="19044" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-io/docs/spray-io-1.0-M2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-io/1.0-M2.1/spray-io-1.0-M2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cc.spray" name="spray-util">
+			<revision name="1.0-M2.1" status="release" pubdate="20120628023610" resolver="Spray Repo" artresolver="Spray Repo" homepage="http://spray.cc" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2955" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-util/ivy-1.0-M2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.cc/cc/spray/spray-util/1.0-M2.1/spray-util-1.0-M2.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="1.0-M2.1" rev-constraint-default="1.0-M2.1" rev-constraint-dynamic="1.0-M2.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-util" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21470" time="2380" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-util/srcs/spray-util-1.0-M2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-util/1.0-M2.1/spray-util-1.0-M2.1-sources.jar"/>
+					</artifact>
+					<artifact name="spray-util" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="315937" time="2520" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-util/docs/spray-util-1.0-M2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-util/1.0-M2.1/spray-util-1.0-M2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-util" type="jar" ext="jar" status="no" details="" size="86931" time="0" location="/Users/aeryn/.ivy2/cache/cc.spray/spray-util/jars/spray-util-1.0-M2.1.jar">
+						<origin-location is-local="false" location="http://repo.spray.cc/cc/spray/spray-util/1.0-M2.1/spray-util-1.0-M2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.1" status="release" pubdate="20110831013953" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2322" time="0" location="/Users/aeryn/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom"/>
+				<caller organisation="zub" name="campaign$sources_javadoc_2.9.1" conf="optional, compile, provided, compile-internal" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.0.5-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1131083" time="9668" location="/Users/aeryn/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.9.1-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="20381370" time="52502" location="/Users/aeryn/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.9.1-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
